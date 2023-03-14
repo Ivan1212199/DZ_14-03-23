@@ -7,5 +7,5 @@
 100 -> 1 (1 + 0 + 0)
 """
 
-a = 123
-print(a//100 + a//10%10 + a%10)
+SumOfDigits = 123
+print(SumOfDigits//100 + SumOfDigits//10%10 + SumOfDigits%10)
