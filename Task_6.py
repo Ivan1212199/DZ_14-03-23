@@ -9,3 +9,10 @@
 123456 -> no
 """
 
+Ticket = str(input('Введите 6-значный номер билета: '))
+HappyTicket = str(Ticket[0]) + str(Ticket[1]) + str(Ticket[2])
+BadTicket = str(Ticket[3]) + str(Ticket[4]) + str(Ticket[5])
+if HappyTicket == BadTicket:
+    print('Yes')
+else:
+    print('No')
